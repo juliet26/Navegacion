@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Navegacion.Behaviors"
+             x:Class="Navegacion.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItempedAttacheds x:Key="CommBeha"></local:ItempedAttacheds>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+"
+                     Command="{Binding AddFriendCommand}"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <SearchBar Text="{Binding Filter}"
+                   SearchCommand="{Binding SearchCommand}"
+                   Placeholder="Ingrese nombre">
+        </SearchBar>
+        <ListView ItemsSource="{Binding Friends}"
+                  Header="Contactos"
+                  Footer="Juliet"
+                  SeparatorColor="Green"
+                  HasUnevenRows="True"
+                  RowHeight="15"
+                  IsGroupingEnabled="True"
+                  GroupShortNameBinding="{Binding Key}"
+                  local:ItempedAttacheds.Command="{Binding ItemTappedCommand}"
+                  SelectedItem="{Binding CurrentFriend}">
+            <ListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout VerticalOptions="FillAndExpand"
+                                     Padding="10">
+                            <Label Text="{Binding Key}"
+                                   BackgroundColor="Black"
+                                   TextColor="White"
+                                   VerticalOptions="Center"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+            <!--<ListView.HeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="Center"
+                                     Padding="10"
+                                     BackgroundColor="DarkGreen">
+                            <Label Text="Amigos"
+                                   BackgroundColor="LimeGreen"
+                                   TextColor="White"
+                                   VerticalOptions="Center"></Label>
+                            <Label Text="Otros amigos"
+                                   BackgroundColor="PaleGreen"
+                                   TextColor="White"
+                                   VerticalOptions="Center"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.HeaderTemplate>-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Nombre}"></Label>
+                            <Label Text="{Binding Teléfono}"
+                                   Grid.Column="1"></Label>
+                            <Image Grid.Column="2"
+                                   HorizontalOptions="End"
+                                   Source="phone_locked.png"></Image>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <!--<ListView.FooterTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="Center"
+                                     Padding="10">
+                            <Label Text="Mensaje 1"
+                                   BackgroundColor="MediumVioletRed"
+                                   TextColor="White"
+                                   VerticalOptions="Center"></Label>
+                            <Label Text="Mensaje 2"
+                                   BackgroundColor="MediumOrchid"
+                                   TextColor="White"
+                                   VerticalOptions="Center"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.FooterTemplate>-->
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
