@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.View.IncidenciaRPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#b1cdcd">
+            <Label Text="Usuario"/>
+            <Entry Placeholder="Ingrese Usuario"
+                   Text="{Binding FriendModel.Usuario, Mode=TwoWay}"/>
+            <Label Text="Area de Trabajo"/>
+            <Entry Placeholder="Ingrese Area de Trabajo"
+                   Text="{Binding FriendModel.Area, Mode=TwoWay}"/>
+            <Label Text="Observaciones"/>
+            <Entry Placeholder="Ingrese sus comentarios en cuanto al area de incidencia"
+                   Text="{Binding FriendModel.Observaciones, Mode=TwoWay}"/>
+            <Label Text="Fecha Registro"/>
+            <Entry Placeholder="Ingrese Actual "
+                   Text="{Binding FriendModel.Fecha, Mode=TwoWay}"/>
+            <StackLayout>
+                <Button Text="Guardar"
+                        HeightRequest="50"
+                        BackgroundColor="#003366"
+                        TextColor="White"
+                        HorizontalOptions="FillAndExpand"
+                        Command="{Binding SaveCommand}"/>
+                <Button Text="Eliminar"
+                        HeightRequest="50"
+                        BackgroundColor="#003366"
+                        TextColor="White"
+                        HorizontalOptions="FillAndExpand"
+                        Command="{Binding DeleteCommand}"
+                        IsEnabled="{Binding IsEnabled}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

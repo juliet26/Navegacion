@@ -1,5 +1,6 @@
 using Navegacion.Data;
 using Navegacion.Services;
+using Navegacion.View;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -9,16 +10,30 @@ namespace Navegacion
 {
 	public partial class App : Application
 	{
-        private static FriendDataBase dataBase;
-        public static FriendDataBase DataBase
+        private static IncidenciaDataBase dataBase;
+        
+        public static IncidenciaDataBase DataBase
         {
             get
             {
                 if (dataBase == null)
                 {
-                    dataBase = new FriendDataBase(DependencyService.Get<IFileHelper>().GetLocalFilePath("friendsdb.db3"));
+                    dataBase = new IncidenciaDataBase(DependencyService.Get<IFileHelper>().GetLocalFilePath("friendsdb.db3"));
                 }
                 return dataBase;
+            }
+        }
+        private static SecondDataBase dataBaseS;
+
+        public static SecondDataBase DataBases
+        {
+            get
+            {
+                if (dataBaseS == null)
+                {
+                    dataBaseS = new SecondDataBase(DependencyService.Get<IFileHelper>().GetLocalFilePath("friendsdb.db4"));
+                }
+                return dataBaseS;
             }
         }
 
@@ -26,7 +41,7 @@ namespace Navegacion
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage (new MainPage());
+			MainPage = new NavigationPage (new SecondPage());
 		}
 
 		protected override void OnStart ()

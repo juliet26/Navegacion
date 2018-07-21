@@ -1,11 +1,3 @@
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\Navegacion.iOS.csprojAssemblyReference.cache
-C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\Navegacion.iOS.csproj.CoreCompileInputs.cache
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\bin\iPhoneSimulator\Debug\Navegacion.iOS.exe
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\bin\iPhoneSimulator\Debug\Navegacion.iOS.pdb
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
@@ -62,6 +54,14 @@ C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\bin\iPhoneSimul
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\bin\iPhoneSimulator\Debug\Navegacion.dll
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\bin\iPhoneSimulator\Debug\Navegacion.pdb
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\Navegacion.iOS.csprojAssemblyReference.cache
+C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\Navegacion.iOS.csproj.CoreCompileInputs.cache
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\Navegacion.iOS.csproj.CopyComplete
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\Navegacion.iOS.exe
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion.iOS\obj\iPhoneSimulator\Debug\Navegacion.iOS.pdb

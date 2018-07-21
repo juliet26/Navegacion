@@ -10,16 +10,17 @@
     </ContentPage.Resources>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+"
-                     Command="{Binding AddFriendCommand}"></ToolbarItem>
+                     Command="{Binding AddFriendCommand}">
+        </ToolbarItem>
+        <ToolbarItem Text="Pausas Activas"
+                     Command="{Binding AddFriendCommand}">
+        </ToolbarItem>
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <SearchBar Text="{Binding Filter}"
-                   SearchCommand="{Binding SearchCommand}"
-                   Placeholder="Ingrese nombre">
-        </SearchBar>
-        <ListView ItemsSource="{Binding Friends}"
-                  Header="Contactos"
-                  Footer="Juliet"
+        
+        <ListView ItemsSource="{Binding Incidencias}"
+                  Header="Registro de Incidencias"
+                  Footer="Seguridad en el Trabajo"
                   SeparatorColor="Green"
                   HasUnevenRows="True"
                   RowHeight="15"
@@ -40,25 +41,7 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.GroupHeaderTemplate>
-            <!--<ListView.HeaderTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Orientation="Horizontal"
-                                     HorizontalOptions="Center"
-                                     Padding="10"
-                                     BackgroundColor="DarkGreen">
-                            <Label Text="Amigos"
-                                   BackgroundColor="LimeGreen"
-                                   TextColor="White"
-                                   VerticalOptions="Center"></Label>
-                            <Label Text="Otros amigos"
-                                   BackgroundColor="PaleGreen"
-                                   TextColor="White"
-                                   VerticalOptions="Center"></Label>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.HeaderTemplate>-->
+            
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -68,8 +51,8 @@
                                 <ColumnDefinition></ColumnDefinition>
                                 <ColumnDefinition></ColumnDefinition>
                             </Grid.ColumnDefinitions>
-                            <Label Text="{Binding Nombre}"></Label>
-                            <Label Text="{Binding Teléfono}"
+                            <Label Text="{Binding Area}"></Label>
+                            <Label Text="{Binding Observaciones}"
                                    Grid.Column="1"></Label>
                             <Image Grid.Column="2"
                                    HorizontalOptions="End"
@@ -78,24 +61,7 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-            <!--<ListView.FooterTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Orientation="Horizontal"
-                                     HorizontalOptions="Center"
-                                     Padding="10">
-                            <Label Text="Mensaje 1"
-                                   BackgroundColor="MediumVioletRed"
-                                   TextColor="White"
-                                   VerticalOptions="Center"></Label>
-                            <Label Text="Mensaje 2"
-                                   BackgroundColor="MediumOrchid"
-                                   TextColor="White"
-                                   VerticalOptions="Center"></Label>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.FooterTemplate>-->
+            
         </ListView>
     </StackLayout>
 

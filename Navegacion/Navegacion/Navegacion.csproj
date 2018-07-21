@@ -10,7 +10,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\FriendPage.xaml">
+    <Compile Update="View\IncidenciaPage.xaml.cs">
+      <DependentUpon>IncidenciaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\IncidenciaRPage.xaml.cs">
+      <DependentUpon>IncidenciaRPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="View\IncidenciaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\IncidenciaRPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\SecondPage.xaml">

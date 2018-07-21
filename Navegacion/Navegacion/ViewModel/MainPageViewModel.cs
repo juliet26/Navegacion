@@ -11,18 +11,18 @@ using Xamarin.Forms;
 
 namespace Navegacion.ViewModel
 {
-    class MainPageViewModel : NotificableFriend
+    class MainPageViewModel : NotificableIncidencia
     {
-        private FriendRepository friendRepository;
+        private IncidenciaRepository incidenciaRepository;
         public ObservableCollection
-            <Grouping<string, Friend>> Friends
+            <Grouping<string, Incidencia>> Incidencias
         { get; set; }
         public Command AddFriendCommand { get; set; }
         public Command ItemTappedCommand { get; set; }
         public Command SearchCommand { get; set; }
         private INavigation Navigation;
         private string filter;
-        private Friend currentFriend;
+        private Incidencia currentFriend;
         public string Filter
         {
             get
@@ -35,7 +35,7 @@ namespace Navegacion.ViewModel
             }
         }
 
-        public Friend CurrentFriend
+        public Incidencia CurrentFriend
         {
             get
             {
@@ -49,8 +49,8 @@ namespace Navegacion.ViewModel
 
         public MainPageViewModel(INavigation navigation)
         {
-            friendRepository = new FriendRepository();
-            Friends = friendRepository.GetAllGrouped();
+            incidenciaRepository = new IncidenciaRepository();
+            Incidencias = incidenciaRepository.GetAllGrouped();
             Navigation = navigation;
             AddFriendCommand = new Command(async () => await AddFriend());
             SearchCommand = new Command(async () => await Search());
@@ -65,12 +65,12 @@ namespace Navegacion.ViewModel
 
         private async Task NavigateToEditFriendView()
         {
-            await Navigation.PushAsync(new FriendPage(CurrentFriend));
+            await Navigation.PushAsync(new IncidenciaPage(CurrentFriend));
         }
 
         public async Task AddFriend()
         {
-            await Navigation.PushAsync(new FriendPage());
+            await Navigation.PushAsync(new IncidenciaPage());
         }
 
     }
