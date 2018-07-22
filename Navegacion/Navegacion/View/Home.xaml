@@ -25,7 +25,7 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
@@ -37,12 +37,11 @@
                     <RowDefinition></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
-                <Label Text="SECUREWORK"
+                <Image Source="title.png"
                        Grid.ColumnSpan="4"
-                       Grid.Row="1"
-                       Font="18"
-                       HorizontalOptions="Center"></Label>
-                <Label Text="Bienvenido a SECUREWORK"
+                       Grid.RowSpan="2"
+                       HorizontalOptions="Center"></Image>
+                <Label Text="Bienvenido"
                        Grid.ColumnSpan="4"
                        Grid.Row="2"
                        Font="16"
@@ -53,7 +52,7 @@
                        Font="16"
                        HorizontalOptions="Center"
                        HorizontalTextAlignment="Center"></Label>
-                <Image Source="continuar.png"
+                <Image Source="personaje.png"
                        Grid.ColumnSpan="4"
                        Grid.Row="4"
                        Grid.RowSpan="5"></Image>
@@ -67,25 +66,25 @@
                         HorizontalOptions="Center"
                         Grid.Row="10"
                         BackgroundColor="Transparent"
-                        Command="{Binding Home}"></Button>
+                        Command="{Binding HomeCommand}"></Button>
                 <Button Image="calendar.png"
                         Grid.Column="1"
                         HorizontalOptions="Center"
                         Grid.Row="10"
                         BackgroundColor="Transparent"
-                        Command="{Binding SaveCommand}"></Button>
+                        Command="{Binding CalendarCommand}"></Button>
                 <Button Image="report.png"
                         Grid.Column="2"
                         HorizontalOptions="Center"
                         Grid.Row="10"
                         BackgroundColor="Transparent"
-                        Command="{Binding IncidenciaRPage}"></Button>
+                        Command="{Binding ReportCommand}"></Button>
                 <Button Image="pause.png"
                         Grid.Column="3"
                         HorizontalOptions="Center"
                         Grid.Row="10"
                         BackgroundColor="Transparent"
-                        Command="{Binding SaveCommand}"></Button>
+                        Command="{Binding PauseCommand}"></Button>
             </Grid>
         </StackLayout>
 

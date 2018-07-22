@@ -3021,7 +3021,13 @@ namespace Navegacion.Droid
 			public const int pause = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int report = 2130771985;
+			public const int personaje = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int report = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int title = 2130771987;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
