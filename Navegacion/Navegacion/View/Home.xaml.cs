@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Navegacion.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,10 @@ namespace Navegacion.View
 		{
             InitializeComponent();
             BackgroundImage = "Fondo1.jpeg";
+        }
+        protected override void OnAppearing()
+        {
+            this.BindingContext = new HomeViewModel(Navigation);
         }
     }
 }
