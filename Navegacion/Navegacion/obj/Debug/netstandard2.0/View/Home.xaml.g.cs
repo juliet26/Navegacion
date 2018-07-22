@@ -8,5 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Navegacion.View.Home.xaml", "View/Home.xaml", null)]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Navegacion.View.Home.xaml", "View/Home.xaml", typeof(global::Navegacion.View.Home))]
 
+namespace Navegacion.View {
+    
+    
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Home.xaml")]
+    public partial class Home : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private void InitializeComponent() {
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Home));
+        }
+    }
+}
