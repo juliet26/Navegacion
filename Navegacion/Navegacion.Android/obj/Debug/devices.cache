@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
-  <Device id="RQ3007FE4H">
+  <Device id="G7T7N16716002739">
     <ResultingAbi>arm64-v8a</ResultingAbi>
-    <SdkVersion>26</SdkVersion>
+    <SdkVersion>21</SdkVersion>
   </Device>
 </Devices>

@@ -3882,13 +3882,11 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -4018,20 +4016,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yessi\\.nuget\\packages\\": {}
+    "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
+      "projectUniqueName": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
       "projectName": "Navegacion.Android",
-      "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
-      "packagesPath": "C:\\Users\\Yessi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\obj\\",
+      "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
+      "packagesPath": "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Yessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RIVERA SANDOVAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4044,8 +4042,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
-              "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
+            "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
+              "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
             }
           }
         }
