@@ -6,3 +6,11 @@ C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstanda
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.AssemblyInfo.cs
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.dll
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.pdb
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.deps.json
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.dll
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.pdb
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.csproj.CoreCompileInputs.cache
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.AssemblyInfoInputs.cache
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.AssemblyInfo.cs
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.dll
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.pdb

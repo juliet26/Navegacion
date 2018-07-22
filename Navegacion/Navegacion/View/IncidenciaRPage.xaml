@@ -14,8 +14,8 @@
             <Entry Placeholder="Ingrese sus comentarios en cuanto al area de incidencia"
                    Text="{Binding FriendModel.Observaciones, Mode=TwoWay}"/>
             <Label Text="Fecha Registro"/>
-            <Entry Placeholder="Ingrese Actual "
-                   Text="{Binding FriendModel.Fecha, Mode=TwoWay}"/>
+            <DatePicker x:Name="Date"
+                        Date="{Binding FriendModel.Fecha, Mode=TwoWay}"></DatePicker>
             <StackLayout>
                 <Button Text="Guardar"
                         HeightRequest="50"

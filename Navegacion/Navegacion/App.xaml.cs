@@ -41,7 +41,7 @@ namespace Navegacion
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage (new SecondPage());
+			MainPage = new NavigationPage (new Home());
 		}
 
 		protected override void OnStart ()

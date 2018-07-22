@@ -5458,20 +5458,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yessi\\.nuget\\packages\\": {}
+    "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
       "projectName": "Navegacion.iOS",
-      "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
-      "packagesPath": "C:\\Users\\Yessi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\obj\\",
+      "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
+      "packagesPath": "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Yessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RIVERA SANDOVAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5484,8 +5484,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
-              "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
+            "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
+              "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
             }
           }
         }
