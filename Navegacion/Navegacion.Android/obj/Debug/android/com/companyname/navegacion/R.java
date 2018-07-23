@@ -3095,13 +3095,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f02013b;
-        public static final int avd_hide_password_2=0x7f02013c;
-        public static final int avd_hide_password_3=0x7f02013d;
+        public static final int avd_hide_password_1=0x7f02013c;
+        public static final int avd_hide_password_2=0x7f02013d;
+        public static final int avd_hide_password_3=0x7f02013e;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f02013e;
-        public static final int avd_show_password_2=0x7f02013f;
-        public static final int avd_show_password_3=0x7f020140;
+        public static final int avd_show_password_1=0x7f02013f;
+        public static final int avd_show_password_2=0x7f020140;
+        public static final int avd_show_password_3=0x7f020141;
         public static final int calendar=0x7f020055;
         public static final int continuar=0x7f020056;
         public static final int design_bottom_navigation_item_background=0x7f020057;
@@ -3322,16 +3322,17 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f02012e;
         public static final int notification_bg_normal_pressed=0x7f02012f;
         public static final int notification_icon_background=0x7f020130;
-        public static final int notification_template_icon_bg=0x7f020139;
-        public static final int notification_template_icon_low_bg=0x7f02013a;
+        public static final int notification_template_icon_bg=0x7f02013a;
+        public static final int notification_template_icon_low_bg=0x7f02013b;
         public static final int notification_tile_bg=0x7f020131;
         public static final int notify_panel_notification_icon_bg=0x7f020132;
-        public static final int pause=0x7f020133;
-        public static final int personaje=0x7f020134;
-        public static final int report=0x7f020135;
-        public static final int title=0x7f020136;
-        public static final int tooltip_frame_dark=0x7f020137;
-        public static final int tooltip_frame_light=0x7f020138;
+        public static final int pausa1=0x7f020133;
+        public static final int pause=0x7f020134;
+        public static final int personaje=0x7f020135;
+        public static final int report=0x7f020136;
+        public static final int title=0x7f020137;
+        public static final int tooltip_frame_dark=0x7f020138;
+        public static final int tooltip_frame_light=0x7f020139;
     }
     public static final class id {
         public static final int ALT=0x7f090032;
@@ -3633,6 +3634,8 @@ containing a value of this type.
         public static final int launcher_foreground=0x7f030002;
     }
     public static final class string {
+        public static final int ApplicationName=0x7f0a003d;
+        public static final int Hello=0x7f0a003c;
         public static final int abc_action_bar_home_description=0x7f0a0015;
         public static final int abc_action_bar_up_description=0x7f0a0016;
         public static final int abc_action_menu_overflow_description=0x7f0a0017;

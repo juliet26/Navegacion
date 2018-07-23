@@ -36,6 +36,8 @@ C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\o
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\report.png
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\icon.png
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\calendar.png
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\title.png
+C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\personaje.png
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\R.cs.flag
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\R.txt
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\uploadflags.txt
@@ -110,11 +112,10 @@ C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\o
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\title.png
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\personaje.png
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\bin\Debug\Navegacion.Android.dll
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\Navegacion.pdb
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\Navegacion.Android.dll.mdb
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\SQLite-net.dll.mdb
-C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\res\drawable\pausa1.mp4
+C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion.Android\bin\Debug\Navegacion.Android.dll
+C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\Navegacion.pdb
+C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\Navegacion.Android.dll.mdb
+C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
+C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\SQLite-net.dll.mdb
+C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

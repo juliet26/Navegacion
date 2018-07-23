@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Navegacion" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
+  <uses-sdk android:targetSdkVersion="24" android:minSdkVersion="21" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="Navegacion.Android" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <application android:label="Navegacion.Android" android:icon="@mipmap/launcher_foreground" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Navegacion" android:theme="@style/MainTheme" android:name="md54ce643d4799a954e9490eb536c46fef6.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <service android:name="md5b025ea164c3f5791375e74ed6ef9accd.MediaPlayerService">
+      <intent-filter>
+        <action android:name="com.xamarin.action.PLAY" />
+        <action android:name="com.xamarin.action.PAUSE" />
+        <action android:name="com.xamarin.action.STOP" />
+        <action android:name="com.xamarin.action.TOGGLEPLAYBACK" />
+        <action android:name="com.xamarin.action.NEXT" />
+        <action android:name="com.xamarin.action.PREVIOUS" />
+      </intent-filter>
+    </service>
+    <receiver android:name="md5b025ea164c3f5791375e74ed6ef9accd.RemoteControlBroadcastReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.MEDIA_BUTTON" />
+      </intent-filter>
+    </receiver>
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.Navegacion.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

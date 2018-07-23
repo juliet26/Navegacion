@@ -69,6 +69,32 @@
           "System.Xml.XDocument": "4.0.11"
         }
       },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/0.4.5": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "0.4.5",
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.3.3": {
         "type": "package",
         "dependencies": {
@@ -689,6 +715,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.MediaManager.Forms": "0.4.5",
           "Xamarin.Forms": "3.0.0.482510",
           "sqlite-net-pcl": "1.3.3"
         },
@@ -768,6 +795,32 @@
           "System.Xml.XDocument": "4.0.11"
         }
       },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/0.4.5": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "0.4.5",
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.3.3": {
         "type": "package",
         "dependencies": {
@@ -1328,6 +1381,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.MediaManager.Forms": "0.4.5",
           "Xamarin.Forms": "3.0.0.482510",
           "sqlite-net-pcl": "1.3.3"
         },
@@ -1407,6 +1461,32 @@
           "System.Xml.XDocument": "4.0.11"
         }
       },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/0.4.5": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "0.4.5",
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.3.3": {
         "type": "package",
         "dependencies": {
@@ -1967,6 +2047,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.MediaManager.Forms": "0.4.5",
           "Xamarin.Forms": "3.0.0.482510",
           "sqlite-net-pcl": "1.3.3"
         },
@@ -2046,6 +2127,32 @@
           "System.Xml.XDocument": "4.0.11"
         }
       },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/0.4.5": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "0.4.5",
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Plugin.MediaManager.Forms.dll": {},
+          "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.3.3": {
         "type": "package",
         "dependencies": {
@@ -2606,6 +2713,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.MediaManager.Forms": "0.4.5",
           "Xamarin.Forms": "3.0.0.482510",
           "sqlite-net-pcl": "1.3.3"
         },
@@ -2677,6 +2785,59 @@
         "dotnet_library_license.txt",
         "netstandard.library.1.6.0.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Plugin.MediaManager/0.4.5": {
+      "sha512": "cpTcuGY+HUDhz2spS4jlB8zmlVsULzbR+YYcxXanKnARUmXO7L66gC+MiJYhVfOEhg96EKYPGEGPuIPtzST3+A==",
+      "type": "package",
+      "path": "plugin.mediamanager/0.4.5",
+      "files": [
+        "lib/MonoAndroid/Plugin.MediaManager.Abstractions.dll",
+        "lib/MonoAndroid/Plugin.MediaManager.Abstractions.xml",
+        "lib/MonoAndroid/Plugin.MediaManager.dll",
+        "lib/MonoAndroid/Plugin.MediaManager.xml",
+        "lib/Xamarin.Mac/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.Mac/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.Mac/Plugin.MediaManager.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.xml",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.xml",
+        "lib/uap10.0/Plugin.MediaManager.Abstractions.dll",
+        "lib/uap10.0/Plugin.MediaManager.Abstractions.xml",
+        "lib/uap10.0/Plugin.MediaManager.XML",
+        "lib/uap10.0/Plugin.MediaManager.dll",
+        "lib/uap10.0/Plugin.MediaManager.pdb",
+        "lib/uap10.0/Properties/Plugin.MediaManager.UWP.rd.xml",
+        "plugin.mediamanager.0.4.5.nupkg.sha512",
+        "plugin.mediamanager.nuspec"
+      ]
+    },
+    "Plugin.MediaManager.Forms/0.4.5": {
+      "sha512": "djWih2/cBd8Sypg+TkDJ2eEQYUGtK7amFvPBlmRVeyetAIhMtPsrJkytvSRnVgYml1ArJvN6f33dc5U3U2avuA==",
+      "type": "package",
+      "path": "plugin.mediamanager.forms/0.4.5",
+      "files": [
+        "lib/MonoAndroid/Plugin.MediaManager.Forms.Android.dll",
+        "lib/MonoAndroid/Plugin.MediaManager.Forms.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.Forms.dll",
+        "lib/uap10.0/Plugin.MediaManager.Forms.UWP.dll",
+        "lib/uap10.0/Plugin.MediaManager.Forms.UWP.pdb",
+        "lib/uap10.0/Plugin.MediaManager.Forms.UWP.pri",
+        "lib/uap10.0/Plugin.MediaManager.Forms.dll",
+        "lib/uap10.0/Plugin.MediaManager.Forms.pdb",
+        "lib/uap10.0/Plugin.MediaManager.XamarinForms.UWP.rd.xml",
+        "lib/xamarinios/Plugin.MediaManager.Forms.dll",
+        "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll",
+        "plugin.mediamanager.forms.0.4.5.nupkg.sha512",
+        "plugin.mediamanager.forms.nuspec"
       ]
     },
     "sqlite-net-pcl/1.3.3": {
@@ -5453,6 +5614,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Navegacion >= 1.0.0",
+      "Plugin.MediaManager.Forms >= 0.4.5",
       "Xamarin.Forms >= 3.0.0.482510",
       "sqlite-net-pcl >= 1.3.3"
     ]
@@ -5463,11 +5625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
       "projectName": "Navegacion.iOS",
-      "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
+      "projectPath": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
       "packagesPath": "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\obj\\",
+      "outputPath": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -5484,8 +5646,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
-              "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
+            "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
+              "projectPath": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
             }
           }
         }
@@ -5494,6 +5656,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Plugin.MediaManager.Forms": {
+            "target": "Package",
+            "version": "[0.4.5, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.0.0.482510, )"

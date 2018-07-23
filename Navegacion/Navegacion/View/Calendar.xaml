@@ -5,8 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Image Source="personaje.png"
-                       HorizontalOptions="Center"></Image>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -29,7 +29,7 @@ namespace Navegacion.ViewModel
 
         private async Task ReportPage()
         {
-            await Navigation.PushAsync(new IncidenciaPage());
+            await Navigation.PushAsync(new IncidenciaRPage());
         }
 
         private async Task CalendarPage()

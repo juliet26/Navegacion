@@ -148,6 +148,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Plugin.MediaManager.Forms">
+      <Version>0.4.5</Version>
+    </PackageReference>
     <PackageReference Include="sqlite-net-pcl">
       <Version>1.3.3</Version>
     </PackageReference>
