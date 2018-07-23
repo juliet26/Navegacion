@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
+<<<<<<< HEAD
   <Device id="G7T7N16716002739">
     <ResultingAbi></ResultingAbi>
     <SdkVersion>21</SdkVersion>
+=======
+  <Device id="RQ3007FE4H">
+    <ResultingAbi>arm64-v8a</ResultingAbi>
+    <SdkVersion>26</SdkVersion>
+>>>>>>> upstream/master
   </Device>
 </Devices>

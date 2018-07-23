@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.deps.json
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.dll
 C:\Users\Yessi\source\repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.pdb
@@ -15,3 +16,13 @@ C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.dll
 C:\Users\RIVERA SANDOVAL\source\repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.pdb
 C:\Users\RIVERA SANDOVAL\Source\Repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.csprojAssemblyReference.cache
+=======
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.deps.json
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.dll
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\bin\Debug\netstandard2.0\Navegacion.pdb
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.csproj.CoreCompileInputs.cache
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.AssemblyInfoInputs.cache
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.AssemblyInfo.cs
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.dll
+C:\Users\Yessi\Source\Repos\Navegacion\Navegacion\Navegacion\obj\Debug\netstandard2.0\Navegacion.pdb
+>>>>>>> upstream/master

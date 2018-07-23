@@ -19,7 +19,7 @@ namespace Navegacion.View
 		}
         protected override void OnAppearing()
         {
-            this.BindingContext = new SecondPageViewModel(Navigation);
+            this.BindingContext = new IncidenciaViewModel(Navigation);
         }
     }
 }

@@ -8,6 +8,7 @@ namespace Navegacion.Model
 {
     public class Incidencia : NotificableIncidencia
     {
+
         #region Atributos
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
@@ -42,5 +43,6 @@ namespace Navegacion.Model
             set { SetValue(ref observaciones, value); }
         }
         #endregion
+        
     }
 }

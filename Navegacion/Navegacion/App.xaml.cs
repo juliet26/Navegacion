@@ -23,15 +23,15 @@ namespace Navegacion
                 return dataBase;
             }
         }
-        private static SecondDataBase dataBaseS;
+        private static UsuarioDataBase dataBaseS;
 
-        public static SecondDataBase DataBases
+        public static UsuarioDataBase DataBases
         {
             get
             {
                 if (dataBaseS == null)
                 {
-                    dataBaseS = new SecondDataBase(DependencyService.Get<IFileHelper>().GetLocalFilePath("friendsdb.db4"));
+                    dataBaseS = new UsuarioDataBase(DependencyService.Get<IFileHelper>().GetLocalFilePath("friendsdb.db4"));
                 }
                 return dataBaseS;
             }
@@ -41,7 +41,7 @@ namespace Navegacion
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage (new Home());
+			MainPage = new NavigationPage (new UsuarioPage());
             
 		}
 

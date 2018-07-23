@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.View.UsuarioPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout BackgroundColor="#b1cdcd">
+            <Label Text="Identificación"/>
+            <Entry Placeholder="Ingrese Identificación"
+                   Text="{Binding FriendModel.Identificacion, Mode=TwoWay}"/>
+            <Label Text="Nombres"/>
+            <Entry Placeholder="Ingrese Nombres"
+                   Text="{Binding FriendModel.Nombres, Mode=TwoWay}"/>
+            <Label Text="Apellidos"/>
+            <Entry Placeholder="Ingrese Apellidos"
+                   Text="{Binding FriendModel.Apellidos, Mode=TwoWay}"/>
+            <Label Text="Ingrese Cargo"/>
+            <Entry Placeholder="Ingrese Cargo"
+                   Text="{Binding FriendModel.Cargo, Mode=TwoWay}"/>
+            <Label Text="Area de Trabajo"/>
+            <Entry Placeholder="Ingrese Area de Trabajo"
+                   Text="{Binding FriendModel.Area, Mode=TwoWay}"/>
+            <Label Text="Sede"/>
+            <Entry Placeholder="Ingrese Sede"
+                   Text="{Binding FriendModel.Sede, Mode=TwoWay}"/>
+            <Label Text="Fecha Correo"/>
+            <Entry Placeholder="Ingrese Correo"
+                   Text="{Binding FriendModel.Correo, Mode=TwoWay}"/>
+            <Label Text="Fecha Password"/>
+            <Entry Placeholder="Ingrese Password"
+                   Text="{Binding FriendModel.Correo, Mode=TwoWay}"/>
+            <StackLayout>
+                <Button Text="Guardar"
+                        HeightRequest="50"
+                        BackgroundColor="#003366"
+                        TextColor="White"
+                        HorizontalOptions="FillAndExpand"
+                        Command="{Binding SaveCommand}"/>
+                <Button Text="Eliminar"
+                        HeightRequest="50"
+                        BackgroundColor="#003366"
+                        TextColor="White"
+                        HorizontalOptions="FillAndExpand"
+                        Command="{Binding DeleteCommand}"
+                        IsEnabled="{Binding IsEnabled}"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

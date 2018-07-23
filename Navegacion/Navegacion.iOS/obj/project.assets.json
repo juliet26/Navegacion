@@ -5620,20 +5620,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\": {}
+    "C:\\Users\\Yessi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
       "projectName": "Navegacion.iOS",
       "projectPath": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
       "packagesPath": "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion.iOS\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
+      "projectName": "Navegacion.iOS",
+      "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\Navegacion.iOS.csproj",
+      "packagesPath": "C:\\Users\\Yessi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.iOS\\obj\\",
+>>>>>>> upstream/master
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\RIVERA SANDOVAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5646,8 +5654,13 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
               "projectPath": "C:\\Users\\RIVERA SANDOVAL\\Source\\Repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
+=======
+            "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
+              "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
+>>>>>>> upstream/master
             }
           }
         }
