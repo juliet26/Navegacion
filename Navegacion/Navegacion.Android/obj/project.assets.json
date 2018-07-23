@@ -4018,20 +4018,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\": {}
+    "C:\\Users\\Yessi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
       "projectName": "Navegacion.Android",
-      "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
-      "packagesPath": "C:\\Users\\RIVERA SANDOVAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\obj\\",
+      "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\Navegacion.Android.csproj",
+      "packagesPath": "C:\\Users\\Yessi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\RIVERA SANDOVAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4044,8 +4044,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
-              "projectPath": "C:\\Users\\RIVERA SANDOVAL\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
+            "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj": {
+              "projectPath": "C:\\Users\\Yessi\\source\\repos\\Navegacion\\Navegacion\\Navegacion\\Navegacion.csproj"
             }
           }
         }
